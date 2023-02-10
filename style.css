@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 nav{
-    background-color: #232946;
+    background-color: #141f54;
 }
 
-
+body {
+    background-color: rgb(132, 147, 186);
+}
 nav > a {
-    color: #286fc7;
+    color: #f5eaea;
     text-decoration: none;
-    padding: 9px 21px;
+    padding: 9px 59px;
     display: inline-block;
 
 }
 
 
 nav > a:hover {
-    background-color: rgb(32, 184, 189);
+    background-color: rgb(88, 105, 154);
 }
