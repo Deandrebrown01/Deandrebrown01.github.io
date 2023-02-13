@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#Name{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
 nav{
     background-color: #141f54;
 }
