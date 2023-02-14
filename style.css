@@ -10,7 +10,7 @@ body {
     background-color: rgb(132, 147, 186);
 }
 nav > a {
-    color: #f5eaea;
+    color: #ffffff;
     text-decoration: none;
     padding: 9px 59px;
     display: inline-block;
@@ -21,3 +21,4 @@ nav > a {
 nav > a:hover {
     background-color: rgb(88, 105, 154);
 }
+
