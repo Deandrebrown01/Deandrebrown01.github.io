@@ -16,8 +16,11 @@
 <h1>Welcome To The Contact Page</h1>
 <body>
     <p>This is where you can contact me at any time or leave your information if you can't reach me at the time.</p>
-    <form> 
-        <label>Name:</label><br>
+    <form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post"
+>
+       <label>Name:</label><br>
         <input name="Name">
         <br>
         
@@ -37,7 +40,7 @@
      <label>Texting</label><br>
     <input type="submit">
     <input type="reset">
-    </form>
+    >
     <link rel="stylesheet" href="style.css">
 
 </body>
