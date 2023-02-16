@@ -22,3 +22,16 @@ nav > a:hover {
     background-color: rgb(88, 105, 154);
 }
 
+input,textarea{
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: 0; ;
+    padding: 8px 12px;
+    border: 8px #141f54;
+}
+input:focus,textarea:focus{
+    background-color: #714dae;
+}
+input[type=sumbit]:hover{
+    background-color: #714dae;
+}
