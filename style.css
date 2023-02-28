@@ -35,3 +35,7 @@ input:focus,textarea:focus{
 input[type=sumbit]:hover{
     background-color: #714dae;
 }
+
+@media screen and (max Width: 480px) {
+ #
+}
