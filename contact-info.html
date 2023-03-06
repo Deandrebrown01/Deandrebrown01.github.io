@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="This is where you can contact me at any time">
+    <meta name="Description" content="These are the projects I have done so far">
     <meta name="author" content="De'Andre Brown">
-    <meta name="keywords"content="Email,contact">
-    <title>Contact Page</title>
+    <meta name="keywords"content="projects,">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My projects</title>
     <nav>
         <a href="index.html">Home</a>
         <a href="hobbies.html">Hobbies</a>
@@ -17,18 +19,30 @@
         <a href="projects.html">My Projects</a>
     </nav>
 </head>
-<h1>Welcome To The Contact Page</h1>
-<h2><a href="mailto:dbrown@brooklynsteamcenter.org">Email Me</a> <a href="https://github.com/Deandrebrown01">Github</a></h2>
+
 <body>
+   
+    <h1>Welcome To The Contact Page</h1>
+
     <p>This is where you can contact me at any time or leave your information if you can't reach me at the time.</p>
-    <form
- action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
- method="post"
->
+
+
+<div class="medias">
+    <a href="mailto:dbrown@brooklynsteamcenter.org">
+    <i class="fa fa-envelope"></i>
+</a> 
+
+<a href="https://github.com/Deandrebrown01">
+    <i class="fa fa-github"></i>
+</a>
+</div>
+
        <label>Name:</label><br>
         <input name="Name">
         <br>
-        
+
+
+<form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
      <label>Email:</label><br>
      <input type="text">
      <label><Details></Details></label>
@@ -45,8 +59,7 @@
      <label>Texting</label><br>
     <input type="submit">
     <input type="reset">
-    
-    <link rel="stylesheet" href="style.css">
+</form>
 
 </body>
 </html>
