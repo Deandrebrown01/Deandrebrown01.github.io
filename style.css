@@ -8,6 +8,7 @@ nav{
 
 body {
     background-color: rgb(132, 147, 186);
+    font-family: 'Nunito Sans', sans-serif;
 }
 nav > a {
     color: #ffffff;
@@ -42,3 +43,6 @@ input[type=sumbit]:hover{
 @media screen and (max-width: 480px) {
  #Photo
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
